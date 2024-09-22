@@ -13,6 +13,9 @@ Rotating machines are critical in industrial settings, and failures can lead to 
 - **Step4_ML_ImportantPredictor**: Identiy Improtant Predictor using Decision Treee Method
 - **Step5_ML_ClassificationLearner**: Lauch MATLAB classificationLearer
 
+### Data Source
+- https://www02.smt.ufrj.br/~offshore/mfs/page_01.html
+
 
 
 
