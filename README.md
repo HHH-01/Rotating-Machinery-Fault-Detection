@@ -6,12 +6,12 @@ Rotating machines are critical in industrial settings, and failures can lead to 
 
 ### Scripts
 
-- **Step1_Data_Gathering**: Extract First 250,000 Data Record for Each Mode From Downloaded Full Data
-- **Step1b_Data_Gathering_RandomData**: Extract Random Data From Downloaded Full Data
-- **Step2_Data_Preprocess_Determine_BandPower_SamplingWindow**: Review Data in Time Domain and Z-Score to Determine BandPower 
-- **Step3_Data_Process**: Refine Data From Power Bands Study
-- **Step4_ML_ImportantPredictor**: Identiy Improtant Predictor using Decision Treee Method
-- **Step5_ML_ClassificationLearner**: Lauch MATLAB classificationLearer
+- **Step1_Data_Gathering**: Extract the first 250,000 data records for each mode from the downloaded full data.
+- **Step1b_Data_Gathering_RandomData**: Extract random data from the downloaded full data.
+- **Step2_Data_Preprocess_Determine_BandPower_SamplingWindow**: Review data in the time domain and apply Z-Score to determine BandPower. 
+- **Step3_Data_Process**: Refine data from the Power Bands study.
+- **Step4_ML_ImportantPredictor**: Identify important predictors using the Decision Tree method.
+- **Step5_ML_ClassificationLearner**: Launch the MATLAB Classification Learner.
 
 ### Data Source
 https://www02.smt.ufrj.br/~offshore/mfs/page_01.html
