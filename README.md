@@ -6,8 +6,8 @@ Rotating machines are critical in industrial settings, and failures can lead to 
 
 ### Scripts
 
-- **Step1_Data_Gathering**: Extract the first 250,000 data records for each mode from the downloaded full data.
-- **Step1b_Data_Gathering_RandomData**: Extract random data from the downloaded full data.
+- **Step1_Data_Gathering**: Extract the first 250,000 data records for each mode from the downloaded full data. For each mode, a single sequence with approximately the same rotating frequency and a similar setting was chosen: 1mm horizontal misalignment, 0.51mm vertical misalignment, 6g of load imbalance, and 6g for all bearing faults. The total records or observations for the sampled data set is 2,500,000. 
+- **Step1b_Data_Gathering_RandomData**: Extract random 250,000 data records for each mode from the downloaded full data. For each mode, a single sequence with approximately the same rotating frequency and a similar setting was chosen: 1mm horizontal misalignment, 0.51mm vertical misalignment, 6g of load imbalance, and 6g for all bearing faults. The total records or observations for the sampled data set is 2,500,000. 
 - **Step2_Data_Preprocess_Determine_BandPower_SamplingWindow**: Review data in the time domain and apply Z-Score to determine BandPower. 
 - **Step3_Data_Process**: Refine data from the Power Bands study.
 - **Step4_ML_ImportantPredictor**: Identify important predictors using the Decision Tree method.
